@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Card</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f2f2f2;
+    }
+    .portfolio-card{
+        background:#fff ;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0,0,0.1);
+        width: 300px;
+        text-align: center;
+        padding: 20px;
+
+    }
+    .portfolio-card img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    .portfolio-card .img{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+    }
+    .portfolio-card h2{
+        margin: 10px 0;
+        font-size: 1.2rem;
+    }
+    .portfolio-card p{
+        color: #666;
+        font-size: 0.9em;
+        
+    }
+    .social-icon{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin: 15px;
+    }
+    .social-icon a{
+        color: #333;
+        font-size: 1.2em;
+        text-decoration: none;
+     }
+     .portfolio-card button{
+        background-color: #3498db;
+        border: 0;
+        border-radius: 10px;
+        color: #fff;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin: 5px;
+        font-size: 0.9em;
+        font-weight: bolder;
+     }
+   
+</style>
+<body>
+    <div class="portfolio-card">
+        <img src="image/Screenshot_20240702_192927_LinkedIn.jpg" alt=" Profile Image">
+        <h2>Aditya Upadhyay</h2>
+        <h4 font-style="cursive">Web Devloper Intern</h4>
+        <div class="social-icon">
+            <a href="#"><img src="image/facebook_5968764.png" alt="facebook" class="img"></a>
+            <a href="#"><img src="image/instagram_733614.png" alt="instagram" class="img"></a>
+            <a href="https://www.linkedin.com/in/aditya-upadhyay-1822622b7/"><img src="image/linkedin_145807.png" alt=" linkden" class="img"></a>
+            <a href="https://github.com/AdityaUpadhyay2610"><img src="image/github_2504911.png" alt="github" class="img"></a>
+        </div>
+        <button>Contact</button>
+         </div>
+</body>
+</html>
